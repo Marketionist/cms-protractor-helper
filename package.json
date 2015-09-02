@@ -1,0 +1,27 @@
+{
+  "name": "cms-protractor-helper",
+  "version": "0.0.1",
+  "description": "Helper functions library for protractor tests",
+  "main": "cms.protractor.helper.js",
+  "scripts": {
+    "test": "echo \"Cms Protractor Helper\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marketionist/cms-protractor-helper.git"
+  },
+  "keywords": [
+    "tests",
+    "protractor",
+    "protractor tests",
+    "integration tests",
+    "e2e tests",
+    "acceptance tests"
+  ],
+  "author": "Dmytro Shpakovskyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Marketionist/cms-protractor-helper/issues"
+  },
+  "homepage": "https://github.com/Marketionist/cms-protractor-helper#readme"
+}
