@@ -87,9 +87,6 @@ CMS.Protractor = {
 
             // wait for user menu to appear
             that.waitFor(elements.userMenu);
-
-            // validate user menu
-            expect(elements.userMenu.isDisplayed()).toBeTruthy();
         });
     }
 
