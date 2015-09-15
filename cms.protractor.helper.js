@@ -1,10 +1,5 @@
-/*!
- * @author:    Divio AG
- * @copyright: http://www.divio.ch
- */
-
 'use strict';
-/* global browser, expect */
+/* global browser */
 
 // #############################################################################
 // INTEGRATION TEST HELPER LIBRARY
