@@ -1,5 +1,5 @@
 'use strict';
-/* global browser */
+/* global browser, expect */
 
 // #############################################################################
 // INTEGRATION TEST HELPER LIBRARY
@@ -26,6 +26,13 @@ CMS.Protractor = {
         return browser.wait(function () {
             return element.isDisplayed();
         }, this.mainElementsWaitTime);
+    },
+
+    // utility to test expectation an element is missing
+    expectByCssToBeAbsent: function (element) {
+        return element.isPresent().then(function (present) {
+            return expect(present).toBeFalsy();
+        });
     },
 
     // utility to select the option
