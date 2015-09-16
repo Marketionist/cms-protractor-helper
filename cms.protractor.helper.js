@@ -29,7 +29,7 @@ CMS.Protractor = {
     },
 
     // utility to test expectation an element is missing
-    expectByCssToBeAbsent: function (element) {
+    expectToBeAbsent: function (element) {
         return element.isPresent().then(function (present) {
             return expect(present).toBeFalsy();
         });
