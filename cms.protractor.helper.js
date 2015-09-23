@@ -28,7 +28,7 @@ CMS.Protractor = {
         }, this.mainElementsWaitTime);
     },
 
-    // utility to test expectation an element is missing
+    // utility to test the expectation that the element is missing
     expectToBeAbsent: function (element) {
         return element.isPresent().then(function (present) {
             return expect(present).toBeFalsy();
