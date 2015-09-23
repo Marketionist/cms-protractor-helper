@@ -27,8 +27,7 @@ Here is the list of all helper functions that are available:
 `cmsProtractorHelper.login(data);` - utility to log in to the site: `data` object can contain credentials: site, username and password, if not set it will fallback to 'http://127.0.0.1:8000/', 'admin', 'admin'. Also `data` object should contain elements selectors needed for the login process - for example:
 ```
 // login to the site
-cmsProtractorHelper.login(
-{
+cmsProtractorHelper.login({
     credentials: {
         site: examplePage.site,
         username: examplePage.username,
