@@ -6,10 +6,6 @@ Install `cms-protractor-helper` via [npm](https://www.npmjs.com/package/cms-prot
 
     npm install cms-protractor-helper --save-dev
 
-Or just add it to package.json:
-
-    "cms-protractor-helper": "0.0.7"
-
 ## Usage
 
 To use `cms-protractor-helper` functions - add it at the top of the page:
@@ -28,7 +24,7 @@ Here is the list of all helper functions that are available:
 
 `cmsProtractorHelper.selectOption(select, optionText, option);` - utility to select the option
 
-`cmsProtractorHelper.login({ data });` - utility to log in to the site: `{ data }` object can contain credentials: site, username and password, if not set it will fallback to 'http://127.0.0.1:8000/', 'admin', 'admin'. Also `{ data }` object should contain elements selectors needed for the login process - for example:
+`cmsProtractorHelper.login(data);` - utility to log in to the site: `data` object can contain credentials: site, username and password, if not set it will fallback to 'http://127.0.0.1:8000/', 'admin', 'admin'. Also `data` object should contain elements selectors needed for the login process - for example:
 ```
 // login to the site
 cmsProtractorHelper.login(
