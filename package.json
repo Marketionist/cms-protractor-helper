@@ -1,6 +1,6 @@
 {
   "name": "cms-protractor-helper",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "description": "Helper functions library for protractor tests",
   "main": "cms.protractor.helper.js",
   "scripts": {
